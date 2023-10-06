@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(192, 218, 228);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 20px;
+    width: 320px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img{
+    background-image: url(image-qr-code.png);
+    border-radius: 12px;
+    background-size: contain;
+    margin: auto auto;
+    margin-top:20px;
+    width: 288px;
+    height: 288px;
+}
+
+.title{
+    font-family: 'Gabarito', cursive;
+    font-size: 22px;
+    width: 255px;
+    padding-top: 30px;
+    margin: auto auto;
+    text-align: center;
+    padding: auto auto;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+    width: 255px;
+    text-align: center;
+    padding: auto auto;
+    margin: auto auto;
+    padding-top: 12px;
+}
